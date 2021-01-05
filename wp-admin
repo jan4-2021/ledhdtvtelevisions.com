@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app101.us.archive.org';v.server_ms=415;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=SOX25l-I" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://ledhdtvtelevisions.com:80/wp-login.php?redirect_to=http%3A%2F%2Fledhdtvtelevisions.com%2Fwp-admin%2F","20090728171210","https://web.archive.org/","web","/_static/",
+	      "1248801130");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=bsmaklHF" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<title>LED HDTV Television &rsaquo; Log In</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" id="login-css" href="https://web.archive.org/web/20090728171210cs_/http://ledhdtvtelevisions.com/wp-admin/css/login.css?ver=20090514" type="text/css" media="all"/>
+<link rel="stylesheet" id="colors-fresh-css" href="https://web.archive.org/web/20090728171210cs_/http://ledhdtvtelevisions.com/wp-admin/css/colors-fresh.css?ver=20090625" type="text/css" media="all"/>
+<meta name="robots" content="noindex,nofollow"/>
+</head>
+<body class="login">
+
+<div id="login"><h1><a href="https://web.archive.org/web/20090728171210/http://wordpress.org/" title="Powered by WordPress">LED HDTV Television</a></h1>
+
+<form name="loginform" id="loginform" action="https://web.archive.org/web/20090728171210/http://ledhdtvtelevisions.com/wp-login.php" method="post">
+	<p>
+		<label>Username<br/>
+		<input type="text" name="log" id="user_login" class="input" value="" size="20" tabindex="10"/></label>
+	</p>
+	<p>
+		<label>Password<br/>
+		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" tabindex="20"/></label>
+	</p>
+	<p class="forgetmenot"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" tabindex="90"/> Remember Me</label></p>
+	<p class="submit">
+		<input type="submit" name="wp-submit" id="wp-submit" value="Log In" tabindex="100"/>
+		<input type="hidden" name="redirect_to" value="http://ledhdtvtelevisions.com/wp-admin/"/>
+		<input type="hidden" name="testcookie" value="1"/>
+	</p>
+</form>
+
+<p id="nav">
+<a href="https://web.archive.org/web/20090728171210/http://ledhdtvtelevisions.com/wp-login.php?action=lostpassword" title="Password Lost and Found">Lost your password?</a>
+</p>
+
+</div>
+
+<p id="backtoblog"><a href="https://web.archive.org/web/20090728171210/http://ledhdtvtelevisions.com/" title="Are you lost?">&larr; Back to LED HDTV Television</a></p>
+
+<script type="text/javascript">
+try{document.getElementById('user_login').focus();}catch(e){}
+</script>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 17:12:10 Jul 28, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:02:15 Jan 04, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  CDXLines.iter: 24.429 (3)
+  PetaboxLoader3.datanode: 262.681 (4)
+  exclusion.robots.policy: 0.207
+  RedisCDXSource: 7.221
+  captures_list: 282.366
+  LoadShardBlock: 246.324 (3)
+  esindex: 0.013
+  PetaboxLoader3.resolve: 71.073
+  load_resource: 125.049
+  exclusion.robots: 0.222
+-->

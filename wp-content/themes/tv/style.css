@@ -1,0 +1,269 @@
+/*   
+Theme Name: tvs
+Description: as above	
+Author: Jack Foster	
+Author URI: http://www.naileditdesign.com
+Version: 1.0
+*/
+
+/* #Basic Styles
+================================================== */
+
+* { margin: 0;
+		padding: 0; -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	outline:none;
+	 }
+
+html { margin:0; padding:0; text-align:left;  } 
+
+
+body {
+	
+		font: 14px/18px Arial, Helvetica, sans-serif;
+		color: #000;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+		margin:0;
+		padding:0;
+		text-align:center;
+		background:url(/web/20140123010635im_/http://ledhdtvtelevisions.com/wp-content/themes/tv/images/bg-site.gif);
+		
+ }
+  
+ul,li { list-style:none; }
+
+
+.main  { text-align:left; min-height: 600px; float: left; clear: left;}
+
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		
+		font-weight: normal; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 28px; line-height: 30px; }
+	h2 { font-size: 16px; line-height: 28px;  }
+	h3 { font-size: 16px; line-height: 20px;  margin:10px 0; padding: 0px; font-weight: bold; }
+	h4 { font-size: 14px; line-height: 20px; margin:10px 0; }
+	h5 { font-size: 14px; line-height: 20px; }
+	h6 { font-size: 14px; line-height: 20px; }
+	.subheader { color: #777; }
+	
+	h1,h2 { padding:5px 0  5px 10px; margin:0 0 10px 0;  clear:both; float:none; font-family: 'StMarieThin'; font-weight:normal;  }
+	
+	p { margin:10px 0; font-size:14px; line-height:18px; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+	b  font-weight:bold; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+	
+	
+/* #Main Styles
+================================================== */
+
+.pager li.current {
+background: #eb1c22;
+color: white;
+}
+.pager li { padding: 0px 1px 15px 5px;
+margin: 5px;
+float: left;
+-webkit-border-radius: 10px;
+width: 20px;
+height: 20px;
+border-radius: 10px;
+background: #F1F1F1;
+border: 1px dotted #333;
+padding: 1px 5px 10px 5px;
+}
+
+/* #Form Styles
+================================================== */
+
+input[type=text]:focus,
+input[type=password]:focus {
+  outline: 0 none;
+}
+
+/* #Content Styles
+================================================== */
+
+
+
+/* #Forms
+================================================== */
+
+	form {
+		margin-bottom: 20px; }
+	fieldset {
+		margin-bottom: 20px; }
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		border: 1px solid #ccc;
+		padding: 6px 4px;
+		outline: none;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #777;
+		margin: 0;
+		width: 210px;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #fff; }
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #aaa;
+ 		color: #444;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	textarea {
+		min-height: 60px; }
+	label,
+	legend {
+		display: block;
+		font-weight: bold;
+		font-size: 13px;  }
+	select {
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+/* #Links
+================================================== */
+	a {color: #000; text-decoration: none; outline: 0; padding-bottom:2px; }
+	a:hover, a:focus { color: #333; outline: 0 none; }
+	
+	 a.special  { padding:7px 10px 7px 10px; height:30px; margin-top:20px;  color:#333; }	
+     a:hover.special {  }		
+     
+     
+     a img {border: none; }
+
+	
+	img { outline: 0 none; max-width:100%; }
+	
+	
+	
+/* #Sidebar
+================================================== */
+
+#sidebar {background: #fff; border: 1px dotted #ddd; padding: 5px;}
+#sidebar li {margin: 5px;}
+ 
+
+/* #header
+================================================== */
+
+.menu { float: right;}
+.menu li { float: left; margin-left: 15px; padding-top: 10px;}
+.menu li a:hover {color: #eb1c22;}
+.header .logo {height: 100px; width: 100px; margin: auto; background:url(/web/20140123010635im_/http://ledhdtvtelevisions.com/wp-content/themes/tv/images/rollover.png) no-repeat 0% 0%; text-indent: 100%; white-space: nowrap;overflow: hidden;  position: relative;}
+.logo a {display: block; height: 100%; position: absolute; z-index: 2;} 
+.header .logo:hover {background:url(/web/20140123010635im_/http://ledhdtvtelevisions.com/wp-content/themes/tv/images/rollover.png) no-repeat 0% 100%;} 
+
+.header-container .background {padding-top: 100px;}
+
+#searchform {float: right; margin-left: 20px; padding-top: 5px;}
+
+.home .foo {float:left; clear:left; padding-bottom: 29px; display: block;}
+.home .foo.sixteen.columns {display: block;}
+.foo.sixteen.columns {display: none;}
+.foo li {float: left; height: 490px; width: 940px;} 
+.foo img {height: auto; width: 940px;}
+.foo {background:url(/web/20140123010635im_/http://ledhdtvtelevisions.com/wp-content/themes/tv/images/banner.png) no-repeat bottom; margin-bottom: 30px;}
+.foo .carousel-control {position: absolute; top:250px; height: 50px; width: 50px; overflow: hidden; border: 0; text-indent: 100%;
+white-space: nowrap;
+overflow: hidden; z-index: 9999; cursor: pointer;}
+.foo .disabled {opacity:0.4;
+filter:alpha(opacity=40);}
+.foo .next { right: 0px; background:url(/web/20140123010635im_/http://ledhdtvtelevisions.com/wp-content/themes/tv/images/nav.png) 100%;}
+.foo .previous {left: 0px; background:url(/web/20140123010635im_/http://ledhdtvtelevisions.com/wp-content/themes/tv/images/nav.png) ;}
+
+.post .image {float: left; width: 30%; margin: 5px; } 
+.post .entry {float: left; width: 65%; margin: 0 5px 0 5px;}
+.post {float: left; clear: left; margin: 10px 0; border: 1px dotted #ddd; background: #fff; padding: 10px; width: 100%;} 
+.readmore {background: #eb1c22; padding: 5px; float:left; border: 1px dotted #ddd; padding: 5px;}
+.readmore a {color: #fff; float: left;}
+
+/* #footer 
+================================================== */
+
+.footer span {float: center; clear: both;}
+.box .eight.columns {float: right; width: 100%; margin-right: 20px;}
+.imagesmall {float:left;}
+.textwidget {font-size: 20px;}
+.textwidget li {font-size:12px;}
+.footer-bottom {text-align: center; float: left;}
+
+
+
+/* #comments
+================================================== */
+
+
+
+
+/* #images
+================================================== */
+
+img.alignright {float:right; margin:0 0 1em 1em;  height:auto; padding-bottom:10px;}
+img.alignleft {float:left; margin:0 1em 1em 0; border:none; height:auto;   }
+img.aligncenter {display: block; margin-left: auto; margin-right: auto; }
+img.alignnone { height:auto; }
+a img.alignright {float:right; margin:0 0 1em 1em; height:auto; padding-bottom:10px; }
+a img.alignleft {float:left; margin:0 1em 1em 0; border:none;  height:auto;  }
+a img.aligncenter {display: block;  margin-left: auto; margin-right: auto;   height:auto;}
+
+
+/*
+     FILE ARCHIVED ON 01:06:35 Jan 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:11:09 Jan 04, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 14.715
+  esindex: 0.014
+  exclusion.robots.policy: 0.191
+  LoadShardBlock: 259.017 (3)
+  PetaboxLoader3.datanode: 247.982 (4)
+  exclusion.robots: 0.215
+  CDXLines.iter: 23.142 (3)
+  captures_list: 300.975
+  load_resource: 281.623
+  PetaboxLoader3.resolve: 253.931 (2)
+*/

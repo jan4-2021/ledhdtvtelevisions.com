@@ -1,0 +1,690 @@
+body,html{height:100%}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}.fl{float:left}.fr{float:right}.ac{text-align:center}.ar{text-align:right}.col-full:after{content:".";display:block;height:0;clear:both;visibility:hidden}.fix{clear:both;height:1px;margin:-1px 0 0;overflow:hidden}html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body *
+dd.clear{background:none;border:0;clear:both;display:block;float:none;font-size:0;list-style:none;margin:0;padding:0;overflow:hidden;visibility:hidden;width:0;height:0}body{font:14px/20px Arial,Helvetica,Sans-serif;color:#555;background-color:#fff}h1,h2,h3,h4,h5,h6{margin:0;font-family:Georgia,serif;color:#222;font-weight:normal}h1{font-size:2em}h2{font-size:1.8em}h3{font-size:1.6em}h4{font-size:1.2em}h5{font-size:1em}h6{font-size:0.8em}p{margin:0;font:16px/24px Georgia,serif}hr{background-color:#e6e6e6;border:0;height:1px;margin-bottom:20px}input,textarea{padding:5px;border-color:#ccc #efefef #efefef #ccc;border-width:1px;border-style:solid;margin-bottom:10px}.hide{display:none}a:link,a:visited{color:#3088ff;text-decoration:none}a:hover{text-decoration:underline;color:red}h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited,
+h4 a:link, h4 a:visited, h5 a:link, h5 a:visited, h6 a:link, h6 a:visited{text-decoration:none}h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{text-decoration:underline}#wrapper{padding:10px
+0 40px}#main{}#sidebar{}.col-left{float:left}.col-right{float:right}.col-full{width:940px;margin:0
+auto}#navigation{font:14px/14px sans-serif;border-top:1px solid #dbdbdb;border-bottom:5px solid #dbdbdb;padding:10px
+0;margin-bottom:30px}#navigation
+ul.rss{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-rss.png) no-repeat right 5px;padding:6px
+15px 3px 0;margin-right:10px}#navigation ul.rss
+li{display:inline;padding:0
+10px 0 0}#navigation ul.rss li
+a{color:#c63f00;text-decoration:none}#navigation ul.rss li a:hover{text-decoration:underline}.nav{z-index:99;margin:0;padding:0;list-style:none;line-height:1;margin-left:10px}.nav
+a{position:relative;color:#555;display:block;z-index:100;padding:5px
+10px;line-height:18px;text-decoration:none}.nav li a:hover, .nav li.current_page_item a, .nav li.current_page_parent a, .nav li.current-menu-ancestor a, .nav li.current-menu-item a, .nav li.current_page_item li a, .nav li.current_page_parent li a, .nav li.current-menu-ancestor li a, .nav li.current-menu-item li a, .nav li.sfHover
+a{background:#eee}.nav li
+li.current_page_item{background:none}.nav
+li{float:left;width:auto}.nav li a.sf-with-ul{padding-right:20px}.nav li ul li
+a{text-shadow:0 1px 0 #fff}.nav li ul li
+a{border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}.nav a, .nav li.current_page_item, .nav li.current_page_parent, .nav li.current-menu-ancestor, .nav li.current-menu-item, .nav li.sfHover, .nav
+li.selected{border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}.nav li
+ul{background:#FFF;position:absolute;left:-999em;width:180px;border:1px
+solid #dbdbdb;border-width:1px 1px 0;z-index:999}.nav li ul
+li{background:#eee;border-top:1px solid #fff;border-bottom:1px solid #dbdbdb}.nav li ul li
+a{width:160px;color:#555;font-size:0.8em;line-height:18px}.nav li ul li a.sf-with-ul{padding:5px
+10px}.nav li ul li a:hover, .nav li.sfHover ul li a.sf-with-ul{background:#eaeaea}.nav li ul
+ul{margin:-30px 0 0 180px}.nav li ul ul li
+a{}.nav li ul li ul li
+a{}.nav li:hover,.nav
+li.hover{position:static}.nav li:hover ul ul, .nav li.sfhover ul ul,
+.nav li:hover ul ul ul, .nav li.sfhover ul ul ul,
+.nav li:hover ul ul ul ul, .nav li.sfhover ul ul ul
+ul{left:-999em}.nav li:hover ul, .nav li.sfhover ul,
+.nav li li:hover ul, .nav li li.sfhover ul,
+.nav li li li:hover ul, .nav li li li.sfhover ul,
+.nav li li li li:hover ul, .nav li li li li.sfhover
+ul{left:auto}.nav .sf-sub-indicator{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/arrow-superfish.png) no-repeat;position:absolute;display:block;right:0.4em;top:40%;width:10px;height:10px;text-indent:-999em;overflow:hidden}.nav li ul .sf-sub-indicator{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/arrow-superfish-right.png) no-repeat}#top{background:#000}#top
+.nav{margin:0}#top .nav
+a{color:#ddd;padding:8px
+10px;line-height:18px;text-decoration:none;text-shadow:none}#top .nav
+li{}#top .nav li a.sf-with-ul{padding-right:20px}#top .nav .sf-sub-indicator{top:40%}#top .nav a:hover,
+#top .nav li.current_page_item a,
+#top .nav li.current_page_parent a,
+#top .nav li.current-menu-ancestor a,
+#top .nav li.current-cat a,
+#top .nav li.current-menu-item a,
+#top .nav li.sfHover
+a{background:#222;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px}#top .nav li
+ul{background:#222;margin:0;padding:0px;width:180px;border:none;z-index:999;-moz-box-shadow:0 2px 2px rgba(0,0,0,.1);-webkit-box-shadow:0 2px 2px rgba(0,0,0,.1);box-shadow:0 2px 2px rgba(0,0,0,.1)}#top .nav li ul, #top .nav li ul li:last-child
+a{border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;-webkit-border-radius:0 0 4px 4px}#top .nav li ul
+li{background:none;border:none;box-shadow:0 4px 8px rgba(0, 0, 0, 0.1)}#top .nav li ul li
+a{padding:8px
+10px;width:160px;color:#ddd;background:none;font-size:0.9em}#top .nav li ul li a:hover{background:#000}#top .nav li ul li a.sf-with-ul{padding-right:10px}#top .nav li ul
+ul{margin:-34px 0 0 180px}#top .nav li:hover, #top .nav
+li.hover{position:static}#top .nav li:hover ul ul, #top .nav li.sfhover ul ul,
+#top .nav li:hover ul ul ul, #top .nav li.sfhover ul ul ul,
+#top .nav li:hover ul ul ul ul, #top .nav li.sfhover ul ul ul
+ul{left:-999em}#top .nav li:hover ul, #top .nav li.sfhover ul,
+#top .nav li li:hover ul, #top .nav li li.sfhover ul,
+#top .nav li li li:hover ul, #top .nav li li li.sfhover ul,
+#top .nav li li li li:hover ul, #top .nav li li li li.sfhover
+ul{left:auto}#header{padding:40px
+0 30px;clear:both;position:relative}#logo{float:left}#logo
+img{}#logo .site-title{line-height:inherit;margin-bottom:5px}#logo .site-title, #logo .site-description{font-family:Georgia,serif;color:#000;display:none}#logo .site-title
+a{color:#222;font-size:40px;line-height:40px;text-transform:none;font-weight:normal;text-decoration:none}#logo .site-title a:hover{text-decoration:underline}#logo .site-description{color:#999;font:italic 14px Georgia,serif}#topad{float:right}#content{padding:0
+0 40px;position:relative}#sidebar{overflow:hidden}#sidebar
+.primary{}#sidebar
+.secondary{float:left;margin-right:20px}#sidebar
+.tertiary{float:left;margin-right:0}#sidebar
+.last{margin:0}#footer{padding:20px
+0;border-top:4px solid #e6e6e6;color:#999}#footer
+p{font:italic normal 14px Georgia, serif}#footer #credit
+img{vertical-align:middle}#footer #credit
+span{display:none}#footer .col-left{padding-left:10px}#footer .col-right{padding-right:10px}.breadcrumbs{margin-bottom:1.5em}.archive_header{display:block;float:left;width:100%;margin:0
+0 30px;padding:0
+0 10px;font-size:18px;font-weight:bold;border-bottom:#e6e6e6 5px solid}.archive_header .catrss
+a{font-size:14px;text-decoration:none;line-height:28px}.post, .search
+.page{margin:0
+0 40px}.post.sticky{}.post .title, .page
+.title{font:normal bold 24px/24px Arial, Helvetica, sans-serif;margin:0
+0 15px}.post .title a:link, .post .title a:visited,
+.page .title a:link, .page .title a:visited{color:#222}.post-meta{margin:1em
+0 1.5em 0;font:1em/1em sans-serif;color:#999;font:11px/11px "Trebuchet MS", Arial, Helvetica, sans-serif;text-transform:uppercase}.post-meta
+.small{text-transform:lowercase}.post-meta
+.author{text-transform:capitalize}.post-more{clear:both;text-transform:uppercase;border:1px
+solid #e6e6e6;border-width:4px 0 1px;padding:10px
+0;font:11px/16px sans-serif}.post
+p.tags{color:#999;background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-tag.gif) no-repeat center left;padding-left:25px;width:100%;clear:both;margin-bottom:20px}.post-meta a:link, .post-meta a:visited, .post p.tags a:link, .post p.tags a:visited{text-decoration:underline;color:#888}.post-more a:hover, .post-meta a:hover, .post p.tags a:hover{text-decoration:underline;color:red}.post .post-embed{margin-bottom:30px}.entry{}.entry .page-link{margin:0
+0 1.2em}.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry
+h6{margin:0
+0 0.5em;line-height:1.5em}.entry
+p{margin-bottom:1.2em}.entry
+blockquote{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/blockquote.png) no-repeat 0 12px;padding:10px
+20px 10px 50px;color:#444}.entry blockquote
+p{font-style:italic}.entry
+ul{margin:0
+0 15px 0;padding:0
+0 0 30px}.entry ul
+ul{margin:0}.entry ul
+li{list-style-type:disc}.entry ul ul
+li{list-style-type:circle}.entry
+ol{margin:0
+0 15px 0;padding:0
+0 0 30px}.entry ol
+ol{margin:0}.entry  ol
+li{list-style-type:decimal}.entry  ol li ol
+li{list-style-type:lower-latin}.entry img,img.thumbnail{padding:5px;border:1px
+solid #e6e6e6;background:#F8F8F8;background:rgba(255,255,255,0.7)}img.wp-smiley{padding:0;border:none}.alignleft{float:left;width:auto;margin:5px
+15px 15px 0}.alignright{float:right;width:auto;margin:5px
+0 15px 15px}.aligncenter{text-align:center;margin-bottom:15px}img.aligncenter{margin-left:auto;margin-right:auto;display:block}.entry .gallery-caption{}.entry .wp-caption{padding:1px;text-align:center;background:#F8F8F8;background:rgba(255,255,255,0.7);border:solid 1px #e6e6e6}.entry .wp-caption
+img{margin:0;padding:4px
+0;background:none;border:0}.entry .wp-caption-text{margin:0;padding:0;font:11px/22px Arial, Helvetica, sans-serif;text-align:center}.entry .wp-caption.aligncenter{margin:0
+auto 15px}.nav-entries,.wp-pagenavi{clear:both;font-size:11px;padding:10px
+15px;border:1px
+solid #e6e6e6;background:#fafafa;border-width:1px 0 4px}.nav-entries a,
+.wp-pagenavi a:link, .wp-pagenavi a:visited,
+.wp-pagenavi .current, .wp-pagenavi .on, .wp-pagenavi a:hover,
+.wp-pagenavi span.extend, .wp-pagenavi
+span.pages{display:block;font:italic 12px/16px Georgia, serif;color:#777;text-decoration:none}.nav-entries a:hover{text-decoration:underline}.post-entries{clear:both;margin-top:-20px}.post-entries a:link, .post-entries a:visited{font-size:0.9em;color:#888}.wp-pagenavi{margin:0
+!important;text-align:center !important}.wp-pagenavi a:link,
+.wp-pagenavi a:visited{display:inline !important;text-decoration:none !important;background:#EEE !important;background:rgba(0,0,0,0.1) !important;color:#666 !important;padding:3px
+7px !important;border:1px
+solid #DDD !important;border:1px
+solid rgba(0,0,0,0.2) !important}.wp-pagenavi .current,
+.wp-pagenavi .on,
+.wp-pagenavi a:hover{display:inline;padding:3px
+7px !important;background:#ddd !important;background:rgba(0,0,0,0.1) !important;border:1px
+solid #bbb !important;border:1px
+solid rgba(0,0,0,0.2) !important}.wp-pagenavi span.extend, .wp-pagenavi
+span.pages{display:inline;background:none !important;border:none !important;color:#666 !important}.woo-pagination{margin:0;text-align:center;clear:both;display:block}.woo-pagination a:link,
+.woo-pagination a:visited{display:inline;text-decoration:none;color:#666;padding:3px
+7px;border:1px
+solid #DDD}.woo-pagination span.extend, .woo-pagination .page-numbers{border:none;color:#666}.woo-pagination a:link, .woo-pagination a:visited, .woo-pagination a:active, .woo-pagination
+span.current{border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px}.woo-pagination a:link, .woo-pagination a:visited, .woo-pagination a:active{border:1px
+solid #dedede;background:#fafafa}.woo-pagination .current, .woo-pagination a:hover{padding:3px
+7px;background:#EEE;border:1px
+solid #bbb}#post-author{background:#fafafa;padding:15px;border:1px
+solid #e6e6e6;border-width:4px 0 1px;margin:0
+0 1.5em}#post-author
+h3{margin-bottom:0px}#post-author .profile-image{float:left;margin:0
+15px 5px 0;padding:5px;border:1px
+solid #e6e6e6;background:#F8F8F8;background:rgba(255,255,255,0.7)}#post-author .profile-link{}.author #post-author{margin-bottom:30px}.post{position:relative}.post .post-icon
+a{float:right;display:block;overflow:hidden;width:51px;height:0;padding-top:51px;background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-post-icons.png) no-repeat 0 0}.post .post-icon.link
+a{background-position:0 0}.post .post-icon.video
+a{background-position:0 -53px}.post .post-icon.article
+a{background-position:0 -106px}.post .post-icon.audio
+a{background-position:0 -160px}.post .post-icon.image
+a{background-position:0 -213px}.post .post-icon.quote
+a{background-position:0 -266px}.post
+.audio{margin-bottom:1.8em}.widget{margin:0
+0 30px 0;font-size:12px}.widget
+h3{margin:0
+0 20px 0;padding:0
+0 15px;text-transform:uppercase;font:normal bold 14px Arial, Helvetica, sans-serif;color:#555;border-bottom:3px solid #e6e6e6}.widget
+p{font:12px/20px Arial, Helvetica, sans-serif;margin-bottom:15px}.widget
+ul{clear:both;padding-left:10px;list-style-position:inside;list-style-type:disc}.widget ul
+li{}.widget ul li
+a{padding:0
+0 0 5px;line-height:22px;text-decoration:none}.widget ul li a:hover{text-decoration:underline}.widget ul
+ul{padding:0
+0 0 15px;border-top:none}.widget_recent_comments li, #twitter
+li{padding:6px
+0;line-height:18px;border-bottom:1px solid #eee}.widget_recent_comments li a, #twitter
+a{display:inline;padding:0;line-height:18px!important;background:none!important;border:none!important}#footer-widgets{border-top:1px solid #e6e6e6;padding:10px
+0}#footer-widgets
+.block{padding:20px
+0 0 20px;width:210px;float:left}.searchform{width:99%;position:relative;border-color:#ccc #efefef #efefef #ccc;border-width:1px;border-style:solid;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}.searchform
+input.s{padding:8px;width:85%;margin:0;border:none;background:none;color:#777}.searchform
+input.submit{position:absolute;top:6px;right:10px;border:none;margin:0;padding:0}.widget_woo_flickr
+h3{}.widget_woo_flickr h3
+span{color:#0061D8}.widget_woo_flickr h3 span
+span{color:#FF1183}.widget_woo_flickr
+.flickr_badge_image{float:left;margin:3px}.widget_woo_flickr
+.wrap{position:relative;margin-bottom:20px;padding:0}.widget_woo_flickr a
+img{float:left;margin:0
+0 8px 8px;display:block;border:#CECFC6 1px solid;padding:3px}.widget_woo_flickr a:hover
+img{border:#A8AA99 1px solid}.widget_lifestream ul
+li{border-bottom:1px solid #e0e6e6}.widget_lifestream ul li
+a{border:none;background:none!important}.widget_lifestream ul
+.lifestream_meta{color:inherit}#wp-calendar{width:95%;margin-bottom:15px;clear:both;padding:0}#wp-calendar
+caption{padding:0
+0 10px}#wp-calendar th,#wp-calendar
+td{text-align:center;background:rgba(0,0,0,.05);padding:5px}#wp-calendar
+td{background:transparent}#wp-calendar td,table#wp-calendar
+th{padding:3px
+0}.widget_woo_blogauthorinfo
+.avatar{padding:5px;border:1px
+solid #e6e6e6;background:#F8F8F8;background:rgba(255,255,255,0.7)}.widget_woo_blogauthorinfo
+.left{float:left;margin:0
+10px 5px 0}.widget_woo_blogauthorinfo
+.right{float:right;margin:0
+0 5px 10px}.widget_woo_twitter
+.back{padding:15px
+25px 10px;background:#f8f8f8;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px}.widget_woo_twitter
+ul{background:none;padding-left:0}.widget_woo_twitter ul
+li{border-bottom:1px solid #e6e6e6;padding:10px
+0px;list-style:none}.widget_woo_twitter ul li
+a{padding:0px}.widget_woo_twitter ul li
+.time{color:#999}.widget_woo_twitter
+p{padding-top:10px}.widget_woo_twitter p
+a{color:#222}.widget_woo_twitter ul li
+.content{font-size:16px;font-family:Georgia,serif}.widget.widget_woo_twitter
+h3{border-bottom:none;padding:0;margin:0;padding-bottom:15px}.feedback
+.pagination{margin-top:20px}#tabs{background:#e6e6e6;height:auto;display:block;padding:5px;margin-bottom:30px}#tabs
+ul.wooTabs{padding:0px}#tabs ul.wooTabs
+li{float:left;display:inline;color:#fff;margin:0px;cursor:pointer}#tabs ul.wooTabs li a.selected, #tabs ul.wooTabs li a:hover{background:#F8F8F8;text-decoration:none}#tabs ul.wooTabs li
+a{color:#777;display:block;float:left;padding:8px;text-transform:uppercase;font:11px/18px "Trebuchet MS", Arial, Helvetica, sans-serif}#tabs
+.inside{background:#F8F8F8;padding:5px}#tabs .inside
+li{background:#fff}#tabs #tab-tags{padding:10px}#tabs .inside
+ul{margin:0;border:1px
+solid #e6e6e6;border-width:1px 0 1px 0;list-style:none;padding-left:0px}#tabs .inside
+li{border:1px
+solid #e6e6e6;border-width:0 1px 1px 1px;padding:10px}#tabs .inside li
+a{color:#555;font:bold 12px/18px Georgia, serif;padding:0}#tabs .inside a:hover{}#tabs .inside li
+span.meta{display:block;font:11px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;text-transform:uppercase;color:#777}#tabs .inside li img.avatar, #tabs .inside li
+img.thumbnail{border:1px
+solid #ddd;padding:2px;background-color:#fff;float:left;margin:0
+8px 0 0}#tabs{border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}#tabs ul.wooTabs li a.selected, #tabs ul.wooTabs li a:hover{border-top-right-radius:3px;border-top-left-radius:3px;-moz-border-radius-topright:3px;-moz-border-radius-topleft:3px;-webkit-border-top-right-radius:3px;-webkit-border-top-left-radius:3px}#tabs .inside
+.list{display:none}#tabs .inside .list:first-child{display:block}#comments{position:relative;margin:40px
+0 0;padding:40px
+0 0 0;border-top:1px solid #e6e6e6;border-top:1px solid rgba(0,0,0,0.07)}#comments
+h3{color:#333;font-weight:normal;margin-bottom:20px}#comments .comment.thread-even{background:#fafafa;background:rgba(0,0,0,0.02);border-bottom:1px solid #e6e6e6;border-bottom:1px solid rgba(0,0,0,0.07)}#comments
+.comment{margin-top:10px;width:100%;list-style-type:none}#comments
+.bypostauthor{}#comments .comment .comment-container{position:relative;padding:20px}#comments .comment-head{margin:0
+0 15px 0}#comments
+.avatar{float:left;margin:0
+15px 10px 0}#comments  .avatar
+img{margin:0;vertical-align:middle;border:1px
+solid #ddd;padding:3px;background:#fff}#comments .comment-head
+.name{margin:0;font-weight:bold;font-size:15px}#comments .comment-head .date, #comments .comment-head .edit, #comments .comment-head
+.perma{font-size:11px}#comments .comment-entry
+p{margin:0
+0 10px 0}#comments
+.reply{padding-top:10px}#comments .reply
+a{-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;background:#FFF;color:#555 !important;text-shadow:none}#comments .reply a:hover{background:#fafafa}#comments
+ul.children{margin:10px
+10px 0 25px;padding:0}#comments ul.children
+li{border-top:1px solid #e6e6e6}#comments .cancel-comment-reply{margin:10px
+0}#comments
+.navigation{}#comments .navigation
+a{display:block;margin:15px
+0 0 0;text-decoration:none}#comments .navigation a:hover{}#comments
+h3#pings{margin-top:25px}#comments .pingbacks
+li.pingback{margin:10px
+0}#comments .pingbacks li.pingback
+.reply{display:none}#respond{margin:40px
+0 0}#respond
+h3{color:#333;font-weight:normal;margin-bottom:20px}#respond #reply-title
+small{display:block;font-size:14px;margin-top:5px}#respond
+.left{float:left;width:200px;margin-right:15px}#respond
+.right{float:left;width:380px}#respond
+label{font-size:11px;color:#777}#commentform{margin:15px
+0 0 0}#commentform input.txt, #commentform
+textarea{font:14px/14px Arial, Helvetica, sans-serif;border-color:#ccc #efefef #efefef #ccc;border-width:1px;border-style:solid}#commentform
+input.txt{color:#666;background:#fcfcfc;width:170px;margin:0
+5px 10px 0;padding:5px
+7px}#commentform
+textarea{color:#666;background:#fcfcfc;width:95% !important;padding:5px
+7px}#commentform
+#submit{margin:15px
+0 0 0}h3#pings{margin:25px
+0 10px 0}.pinglist
+li{margin:0
+0 0 20px;list-style-type:decimal}.pinglist li
+.author{font-weight:bold;font-size:15px}.pinglist li
+.date{font-size:11px}.pinglist li
+.pingcontent{display:block;margin:10px
+0}.button, .button:visited, .reply a, #respond .form-submit
+input#submit{font-family:Verdana,Geneva,Arial,sans-serif;background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/alert-overlay.png);display:inline-block;padding:5px
+10px 6px;color:#fff !important;text-decoration:none;border:none;position:relative;cursor:pointer}.button, .button:visited, .reply a, #respond .form-submit
+input#submit{background-color:#444}.button:hover, .reply a:hover, #respond .form-submit input#submit:hover{color:#fff  !important;text-decoration:none}.button:active, .reply a:active, #respond .form-submit input#submit:active{top:1px}.small.button, .small.button:visited, .reply
+a{font-size:10px;padding:0px
+6px 1px;text-transform:uppercase}.button, .button:visited, .medium.button, .medium.button:visited, #respond .form-submit
+input#submit{font-size:12px;line-height:1}.large.button,.large.button:visited{font-size:14px;padding:8px
+14px 9px}.button, .button:visited, .medium.button, .medium.button:visited, #respond .form-submit
+input#submit{text-shadow:0 -1px 1px rgba(0,0,0,0.25)}.button, .button:visited, .reply a, #respond .form-submit
+input#submit{-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:0 -1px 1px rgba(0,0,0,0.25);border:1px
+solid rgba(0,0,0,.25);border-bottom-color:rgba(0,0,0,.35)}.button:hover, .reply a:hover, #respond .form-submit input#submit:hover{opacity:0.9}p.alert,p.download,p.info,p.note,p.tick{margin:10px
+0 20px 0;padding:9px
+10px 9px 50px}p.alert{border-top:1px solid #f0baa2;border-bottom:1px solid #f0baa2;background:#ffd9c8 url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-alert.png) no-repeat 20px 13px}p.download{border-top:1px solid #d4ebaf;border-bottom:1px solid #d4ebaf;background:#edfcd5 url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-download.png) no-repeat 20px 13px}p.tick{border-top:1px solid #d4ebaf;border-bottom:1px solid #d4ebaf;background:#edfcd5 url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-tick.png) no-repeat 20px 13px}p.info{border-top:1px solid #ccc;border-bottom:1px solid #ccc;background:#eee url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-info.png) no-repeat 20px 13px}p.note{border-top:1px solid #efe3ae;border-bottom:1px solid #efe3ae;background:#fef6d2 url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-note.png) no-repeat 20px 13px}#contact-page
+.screenReader{left:-9999px;position:absolute;top:-9999px}#contact-page
+ol.forms{float:left;list-style:none;width:100%;margin:10px
+0 0}#contact-page ol.forms
+li{clear:both;float:left;margin-bottom:18px;position:relative;width:100%}#contact-page ol.forms
+label{cursor:pointer;display:block;float:left;font-weight:700;padding-right:20px;width:100px}#contact-page ol.forms
+input.txt{width:214px}#contact-page ol.forms
+input#sendCopy{border:none}#contact-page ol.forms
+textarea{height:300px;width:70%}#contact-page ol.forms li
+.error{font-size:12px;display:block;margin-left:120px;color:red}#contact-page ol.forms li.textarea
+.error{display:block;margin-left:120px}#contact-page ol.forms
+li.screenReader{margin-bottom:0}#contact-page ol.forms li.buttons
+.submit{margin:15px
+0 0 120px}#contact-page ol.forms li.inline
+input{width:auto;margin-left:120px}#contact-page ol.forms li.inline
+label{display:inline;float:none;width:auto}.three-col-left #contact-page ol.forms textarea,
+.three-col-middle #contact-page ol.forms textarea,
+.three-col-right #contact-page ol.forms
+textarea{width:65%}.three-col-left #contact-page ol.forms input#sendCopy,
+.three-col-middle #contact-page ol.forms input#sendCopy,
+.three-col-right #contact-page ol.forms
+input#sendCopy{float:left}.gfield{margin-bottom:10px}.gform_wrapper .top_label
+.gfield_label{display:block;padding-right:20px;width:100px;margin:5px
+0px 4px !important;font:normal normal normal 14px Arial, sans-serif;font-weight:bold}.gform_wrapper
+input.button{padding:5px
+10px 6px !important;font-size:12px !important}.gform_wrapper .gfield_checkbox label, .gform_wrapper .gfield_radio
+label{font-size:12px !important}.gform_footer{font-size:13px !important}.gform_wrapper .ginput_complex label, .gform_wrapper .gfield_time_hour label, .gform_wrapper .gfield_time_minute label, .gform_wrapper .gfield_date_month label, .gform_wrapper .gfield_date_day label, .gform_wrapper .gfield_date_year label, .gform_wrapper
+.instruction{letter-spacing:0px}.gform_wrapper
+input{padding:7px
+3px !important}.gform_wrapper .top_label input.large, .gform_wrapper .top_label select.large, .gform_wrapper .top_label
+textarea.textarea{width:400px !important;padding:7px
+3px !important}.gform_wrapper .entry img, .gform_wrapper
+img.thumbnail{padding:0px
+!important;border:0px
+!important}ul.top_label .clear-multi{clear:none !important}.gform_wrapper .gfield_checkbox, .gform_wrapper
+.gfield_radio{margin-left:120px !important}img.ui-datepicker-trigger{border:0px;padding:0px}.entry .quote, .entry
+.video{margin-bottom:1.5em}.entry .quote
+blockquote{font-style:italic}.entry .quote
+cite{text-align:right;font-style:normal;display:block;font:0.9em sans-serif}.entry .quote cite:before{content:'~ '}#connect{background:#fafafa;margin:0
+0 1.5em;padding:15px;border:1px
+solid #e6e6e6;border-width:1px 0 4px;clear:both}#main #connect .col-left, #connect .col-right{width:48%}#connect
+h3{margin-bottom:10px}#connect
+p{margin:0
+0 1em}#connect .newsletter-form{margin:0
+0 1em}#connect .newsletter-form
+.input{}#connect .newsletter-form
+.email{width:140px}#connect .newsletter-form
+.submit{cursor:pointer;padding:3px
+5px;margin:0
+0 0 5px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}#connect
+.social{}#connect .social
+a{opacity:0.8}#connect .social a:hover{opacity:1}#connect .related-posts{border-left:1px solid #e6e6e6;padding-left:15px}#connect .related-posts
+ul{list-style:outside disc;margin:5px
+0 5px 15px}.widget
+#connect{background:none;padding:0;border:none}.widget #connect .fl, .widget #connect
+.fr{float:none}.woo-sc-featured-posts
+ul{float:left;clear:both;list-style:none;padding-left:0px}.woo-sc-featured-posts ul
+li{float:left;clear:both;list-style:none;margin-bottom:10px}.woo-sc-featured-posts ul li
+.thumbnail{float:left;margin-right:10px}.woo-sc-featured-posts ul li .related-title{float:left}.width-1200 .col-full{width:1200px}.width-980 .col-full{width:980px}.width-960 .col-full{width:960px}.width-940 .col-full{width:940px}.width-880 .col-full{width:880px}.width-760 .col-full{width:760px}.width-1200
+#wrapper{width:1200px;margin-left:auto;margin-right:auto}.width-980
+#wrapper{width:980px;margin-left:auto;margin-right:auto}.width-960
+#wrapper{width:960px;margin-left:auto;margin-right:auto}.width-940
+#wrapper{width:940px;margin-left:auto;margin-right:auto}.width-880
+#wrapper{width:880px;margin-left:auto;margin-right:auto}.width-760
+#wrapper{width:760px;margin-left:auto;margin-right:auto}.width-1200 #footer-widgets
+.block{width:275px}.width-980 #footer-widgets
+.block{width:220px}.width-960 #footer-widgets
+.block{width:215px}.width-880 #footer-widgets
+.block{width:195px}.width-760 #footer-widgets
+.block{width:165px}.two-col-left #main-sidebar-container{display:inline}.two-col-left #main-sidebar-container
+#main{width:610px;float:left;display:inline}.two-col-left #main-sidebar-container
+#sidebar{width:300px;float:right;display:inline}.two-col-left-1200 #main-sidebar-container
+#main{width:800px}.two-col-left-1200 #main-sidebar-container
+#sidebar{width:370px;float:right;display:inline}.two-col-left-980 #main-sidebar-container
+#main{width:650px}.two-col-left-960 #main-sidebar-container
+#main{width:630px}.two-col-left-880 #main-sidebar-container
+#main{width:550px}.two-col-left-760 #main-sidebar-container
+#main{width:480px}.two-col-left-880 #main-sidebar-container
+#sidebar{width:300px}.two-col-left-760 #main-sidebar-container
+#sidebar{width:250px}.two-col-right #main-sidebar-container{display:inline}.two-col-right #main-sidebar-container
+#main{width:610px;float:right;display:inline}.two-col-right #main-sidebar-container
+#sidebar{width:300px;float:left;display:inline}.two-col-right-1200 #main-sidebar-container
+#main{width:800px}.two-col-right-1200 #main-sidebar-container
+#sidebar{width:370px;float:left;display:inline}.two-col-right-980 #main-sidebar-container
+#main{width:650px}.two-col-right-960 #main-sidebar-container
+#main{width:630px}.two-col-right-880 #main-sidebar-container
+#main{width:550px}.two-col-right-880 #main-sidebar-container
+#sidebar{width:300px}.two-col-right-760 #main-sidebar-container
+#main{width:480px}.two-col-right-760 #main-sidebar-container
+#sidebar{width:250px}.three-col-left #main-sidebar-container{width:760px;float:left;position:relative;display:inline}.three-col-left #main-sidebar-container
+#main{width:440px;float:left;display:inline}.three-col-left #main-sidebar-container
+#sidebar{width:300px;float:right;display:inline}.three-col-left #sidebar-alt{float:right;width:160px;margin:0;display:inline}.three-col-left-1200 #main-sidebar-container{width:1000px}.three-col-left-1200 #main-sidebar-container
+#main{width:680px}.three-col-left-1200 #sidebar-alt{float:right;width:180px;margin:0;display:inline}.three-col-left-980 #main-sidebar-container{width:800px}.three-col-left-980 #main-sidebar-container
+#main{width:480px}.three-col-left-960 #main-sidebar-container{width:780px}.three-col-left-960 #main-sidebar-container
+#main{width:460px}.three-col-left-880 #main-sidebar-container{width:740px}.three-col-left-880 #main-sidebar-container
+#main{width:420px}.three-col-left-880 #main-sidebar-container
+#sidebar{width:300px}.three-col-left-880 #sidebar-alt{width:120px}.three-col-left-760 #main-sidebar-container{width:620px}.three-col-left-760 #main-sidebar-container
+#main{width:350px}.three-col-left-760 #main-sidebar-container
+#sidebar{width:250px}.three-col-left-760 #sidebar-alt{width:120px}.three-col-middle #main-sidebar-container{width:760px;float:right;position:relative;display:inline}.three-col-middle #main-sidebar-container
+#main{width:440px;float:left;display:inline}.three-col-middle #main-sidebar-container
+#sidebar{width:300px;float:right;display:inline}.three-col-middle #sidebar-alt{float:left;width:160px;margin:0;display:inline}.three-col-middle-1200 #main-sidebar-container{width:1000px}.three-col-middle-1200 #main-sidebar-container
+#main{width:680px}.three-col-middle-1200 #sidebar-alt{float:left;width:180px;margin:0;display:inline}.three-col-middle-980 #main-sidebar-container{width:800px}.three-col-middle-980 #main-sidebar-container
+#main{width:480px}.three-col-middle-960 #main-sidebar-container{width:780px}.three-col-middle-960 #main-sidebar-container
+#main{width:460px}.three-col-middle-880 #main-sidebar-container{width:740px}.three-col-middle-880 #main-sidebar-container
+#main{width:420px}.three-col-middle-880 #main-sidebar-container
+#sidebar{width:300px}.three-col-middle-880 #sidebar-alt{width:120px}.three-col-middle-760 #main-sidebar-container{width:620px}.three-col-middle-760 #main-sidebar-container
+#main{width:350px}.three-col-middle-760 #main-sidebar-container
+#sidebar{width:250px}.three-col-middle-760 #sidebar-alt{width:120px}.three-col-right #main-sidebar-container{width:760px;float:right;position:relative;display:inline}.three-col-right #main-sidebar-container
+#main{width:440px;float:right;display:inline}.three-col-right #main-sidebar-container
+#sidebar{width:300px;float:left;display:inline}.three-col-right #sidebar-alt{float:left;width:160px;margin:0;display:inline}.three-col-right-1200 div#wrapper #main-sidebar-container{width:1000px}.three-col-right-1200 div#wrapper #main-sidebar-container
+#main{width:680px}.three-col-right-1200 #sidebar-alt{float:left;width:180px;margin:0;display:inline}.three-col-right-980 div#wrapper #main-sidebar-container{width:800px}.three-col-right-980 div#wrapper #main-sidebar-container
+#main{width:480px}.three-col-right-960 div#wrapper #main-sidebar-container{width:780px}.three-col-right-960 div#wrapper #main-sidebar-container
+#main{width:460px}.three-col-right-880 #main-sidebar-container{width:740px}.three-col-right-880 #main-sidebar-container
+#main{width:420px}.three-col-right-880 #main-sidebar-container
+#sidebar{width:300px}.three-col-right-880 #sidebar-alt{width:120px}.three-col-right-760 #main-sidebar-container{width:620px}.three-col-right-760 #main-sidebar-container
+#main{width:350px}.three-col-right-760 #main-sidebar-container
+#sidebar{width:250px}.three-col-right-760 #sidebar-alt{width:120px}.one-col-1200 #loopedSlider, .one-col-1200 #loopedSlider
+.container{width:1200px}.one-col-980 #loopedSlider, .one-col-980 #loopedSlider
+.container{width:980px}.one-col-960 #loopedSlider, .one-col-960 #loopedSlider
+.container{width:960px}.one-col-940 #loopedSlider, .one-col-940 #loopedSlider
+.container{width:940px}.one-col-880 #loopedSlider, .one-col-880 #loopedSlider
+.container{width:880px}.one-col-760 #loopedSlider, .one-col-760 #loopedSlider
+.container{width:760px}.two-col-left-1200 #loopedSlider, .two-col-left-1200 #loopedSlider .container, .two-col-right-1200 #loopedSlider, .two-col-right-1200 #loopedSlider
+.container{width:800px}.two-col-left-980 #loopedSlider, .two-col-left-980 #loopedSlider .container, .two-col-right-980 #loopedSlider, .two-col-right-980 #loopedSlider
+.container{width:650px}.two-col-left-960 #loopedSlider, .two-col-left-960 #loopedSlider .container, .two-col-right-960 #loopedSlider, .two-col-right-960 #loopedSlider
+.container{width:630px}.two-col-left-940 #loopedSlider, .two-col-left-940 #loopedSlider .container, .two-col-right-940 #loopedSlider, .two-col-right-940 #loopedSlider
+.container{width:610px}.two-col-left-880 #loopedSlider, .two-col-left-880 #loopedSlider .container, .two-col-right-880 #loopedSlider, .two-col-right-880 #loopedSlider
+.container{width:550px}.two-col-left-760 #loopedSlider, .two-col-left-760 #loopedSlider .container, .two-col-right-760 #loopedSlider, .two-col-right-760 #loopedSlider
+.container{width:480px}.three-col-left-1200 #loopedSlider, .three-col-left-1200 #loopedSlider .container, .three-col-middle-1200 #loopedSlider, .three-col-middle-1200 #loopedSlider .container, .three-col-right-1200 #loopedSlider, .three-col-right-1200 #loopedSlider
+.container{width:680px}.three-col-left-980 #loopedSlider, .three-col-left-980 #loopedSlider .container, .three-col-middle-980 #loopedSlider, .three-col-middle-980 #loopedSlider .container, .three-col-right-980 #loopedSlider, .three-col-right-980 #loopedSlider
+.container{width:480px}.three-col-left-960 #loopedSlider, .three-col-left-960 #loopedSlider .container, .three-col-middle-960 #loopedSlider, .three-col-middle-960 #loopedSlider .container, .three-col-right-960 #loopedSlider, .three-col-right-960 #loopedSlider
+.container{width:460px}.three-col-left-940 #loopedSlider, .three-col-left-940 #loopedSlider .container, .three-col-middle-940 #loopedSlider, .three-col-middle-940 #loopedSlider .container, .three-col-right-940 #loopedSlider, .three-col-right-940 #loopedSlider
+.container{width:440px}.three-col-left-880 #loopedSlider, .three-col-left-880 #loopedSlider .container, .three-col-middle-880 #loopedSlider, .three-col-middle-880 #loopedSlider .container, .three-col-right-880 #loopedSlider, .three-col-right-880 #loopedSlider
+.container{width:420px}.three-col-left-760 #loopedSlider, .three-col-left-760 #loopedSlider .container, .three-col-middle-760 #loopedSlider, .three-col-middle-760 #loopedSlider .container, .three-col-right-760 #loopedSlider, .three-col-right-760 #loopedSlider
+.container{width:350px}#loopedSlider
+.container{overflow:hidden;position:relative}#loopedSlider
+.slides{min-height:200px;position:absolute;top:0;left:0;display:none}#loopedSlider{margin:0
+auto 40px;padding:0;position:relative}#loopedSlider .nav-buttons{list-style-type:none;margin:0;padding:0;position:relative}#loopedSlider
+.content{position:absolute;left:0px;top:20px}#loopedSlider .content
+h2{float:left;color:#fff;margin-bottom:0;padding:5px
+20px}#loopedSlider .content h2 a:hover{text-decoration:underline}#loopedSlider .content
+p{clear:both;float:left;color:#ccc;padding:5px
+20px 10px 20px}#loopedSlider .content p, #loopedSlider .content
+h2{background:rgb(0,0,0);background:rgba(0,0,0,.7);max-width:350px}#loopedSlider.has-pagination{margin-bottom:50px}#loopedSlider .pagination-wrap{text-align:center;margin:10px
+10px 20px 10px;position:absolute;width:97%;z-index:10}#loopedSlider
+.pagination{display:inline}#loopedSlider .pagination
+li{display:inline-block;margin-right:2px;width:12px;height:12px}#loopedSlider .pagination li
+a{background:transparent url('/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/slider-pagination.png') no-repeat left top;display:block;width:12px;height:12px;text-indent:-9999px}#loopedSlider .pagination li.current
+a{background-position:left -12px}body.ie7 #loopedSlider .pagination
+li{display:inline;zoom:1}.magazine
+.block{float:left;width:48%}.magazine
+.block.last{float:right}.magazine #loopedSlider
+a.previous{position:absolute;bottom:10px;right:50px;opacity:0.8;z-index:999}.magazine #loopedSlider
+a.next{position:absolute;bottom:10px;right:15px;opacity:0.8;z-index:999}.magazine #loopedSlider a.previous:hover, #loopedSlider a.next:hover{opacity:1}.business #loopedSlider, .business #loopedSlider
+.container{width:auto}.business #loopedSlider
+a.previous{position:absolute;top:45%;left:-40px;opacity:0.8}.business #loopedSlider
+a.next{position:absolute;top:45%;right:-40px;opacity:0.8}.business #loopedSlider a.previous:hover, #loopedSlider a.next:hover{opacity:1}.business #loopedSlider
+.entry{padding:0
+15px}.business h2, .business h3, .business h4, .business h5, .business
+h6{margin-top:0.3em}#footer-widgets.col-1
+.block{padding:20px
+0 0 0px;width:100%;float:left}#footer-widgets.col-2
+.block{padding:20px
+0 0 3%;width:45%;float:left}#footer-widgets.col-3
+.block{padding:20px
+0 0 2.4%;width:30%;float:left}#footer-widgets.col-4
+.block{padding:20px
+0 0 2%;width:22.5%;float:left}#portfolio
+a.thumb{display:block;margin:0px;margin-right:30px;margin-bottom:30px}#portfolio a.thumb:hover{text-decoration:none;background:url("/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/portfolio-hover.png") no-repeat 50% 50%}#portfolio .block
+h2{font-size:18px;margin-bottom:15px}#portfolio .group.portfolio-img
+a.thumb{margin-bottom:0px;margin-right:0px;height:auto}#portfolio .group.portfolio-img a.thumb:hover{background-position:50% 45%}#portfolio .group.portfolio-img{float:left;display:block;margin:0
+10px 30px}#portfolio .group.portfolio-img
+h3{font-size:14px}#portfolio #port-tags{margin:0
+10px 20px;padding:0
+0 20px}#portfolio #port-tags .port-cat{text-transform:uppercase;font-size:12px}#portfolio #port-tags .port-cat
+a{padding:2px
+6px;margin:0
+0 0 5px;background:#fff;border:1px
+solid #BFD4D9;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}#portfolio #port-tags .port-cat a:hover,
+#portfolio #port-tags .port-cat
+a.current{text-decoration:none;background:#eee}body.single-portfolio.one-col #post-gallery, body.single-portfolio.one-col .post-embed{float:left;margin-bottom:20px;width:60%}body.single-portfolio.one-col-980 #post-gallery, body.single-portfolio.one-col-980 .post-embed{width:55%}body.single-portfolio.one-col-960 #post-gallery, body.single-portfolio.one-col-960 .post-embed{width:55%}body.single-portfolio.one-col-940 #post-gallery, body.single-portfolio.one-col-940 .post-embed{width:55%}body.single-portfolio.one-col-880 #post-gallery, body.single-portfolio.one-col-880 .post-embed{width:55%}body.single-portfolio.one-col-760 #post-gallery, body.single-portfolio.one-col-760 .post-embed{width:45%}body.single-portfolio.two-col-left #post-gallery,
+body.single-portfolio.two-col-right #post-gallery,
+body.single-portfolio.two-col-middle #post-gallery,
+body.single-portfolio.three-col-left #post-gallery,
+body.single-portfolio.three-col-right #post-gallery,
+body.single-portfolio.three-col-middle #post-gallery,
+body.single-portfolio.two-col-left .post-embed,
+body.single-portfolio.two-col-right .post-embed,
+body.single-portfolio.two-col-middle .post-embed,
+body.single-portfolio.three-col-left .post-embed,
+body.single-portfolio.three-col-right .post-embed,
+body.single-portfolio.three-col-middle .post-embed{float:none;margin-bottom:20px}#post-gallery .slides_control
+.slide{display:none}#post-gallery .photo-caption{background:#FFF;padding:5px;display:block;position:relative;width:100%;top:-50px;z-index:99}#post-gallery .photo-caption{filter:alpha(opacity=80);-khtml-opacity:0.8;-moz-opacity:0.8;opacity:0.8}#post-gallery .pagination
+li{display:inline;padding-right:10px;margin:15px
+4px 15px 0}#post-gallery .pagination .jcarousel-prev, #post-gallery .pagination .jcarousel-next{cursor:pointer;width:7px;height:10px;position:absolute;top:45%}#post-gallery .pagination .jcarousel-prev{background:transparent url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-gallery-prev.png) no-repeat left top;left:-15px}#post-gallery .pagination .jcarousel-next{background:transparent url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/images/ico-gallery-next.png) no-repeat right top;right:-15px}#post-gallery .pagination .jcarousel-prev-disabled,
+#post-gallery .pagination .jcarousel-next-disabled{filter:alpha(opacity=20);-khtml-opacity:0.2;-moz-opacity:0.2;opacity:0.2}body.single-portfolio
+.hentry{float:right;width:40%}body.single-portfolio.two-col-left .hentry,
+body.single-portfolio.two-col-right .hentry,
+body.single-portfolio.two-col-middle .hentry,
+body.single-portfolio.three-col-left .hentry,
+body.single-portfolio.three-col-right .hentry,
+body.single-portfolio.three-col-middle
+.hentry{float:none;width:auto}body.search .portfolio .portfolio-img{margin:0
+10px 10px 0}.ie6 .nav .sf-sub-indicator{display:none}.ie6 .nav li a:hover{text-decoration:none}.ie6 .nav li a.sf-with-ul{padding-right:10px}.ie6 .button, .ie6 .button:visited{margin:0;color:#555 !important;font-weight:normal}.reply
+a{color:#555 !important}.ie6 .button, .ie6 .button:visited{padding:6px
+0;margin:0}.ie6 .widget
+input.submit{float:right}.ie6 #loopedSlider .content p, .ie6 #loopedSlider .content a
+h2{width:300px}.ie6 .business #loopedSlider
+a.previous{top:150px}.ie6 .business #loopedSlider
+a.next{top:150px}.ie7 .nav li
+a{_height:0;zoom:1}.ie7 .button,.button:visited{padding:7px
+6px;margin:0}.ie7 .nav-entries a,
+.ie7 .wp-pagenavi a:link, .ie7 .wp-pagenavi a:visited,
+.ie7 .wp-pagenavi .current, .ie7 .wp-pagenavi .on, .ie7 .wp-pagenavi a:hover,
+.ie7 .wp-pagenavi span.extend, .ie7 .wp-pagenavi
+span.pages{font-style:normal !important}.ie7 #comments, .ie7 .comment-container, .ie7 .reply
+a{position:static}.ie7 #footer-widgets
+.widget_woo_feedback{zoom:1}.ie8 .button, .ie8 .button:visited{padding:10px
+15px;margin:0}p.woo-sc-box,div.woo-sc-box{margin:1em
+0 1.5em 0;padding:9px
+10px 9px 50px;border-width:1px 0 1px 0;border-style:solid;color:#555;text-shadow:none}.woo-sc-box.none{border-width:0}.woo-sc-box.full{border-width:1px}.woo-sc-box.medium{padding:18px
+20px 18px 50px;font-size:1.1em}.woo-sc-box.large{padding:25px
+27px 25px 50px;font-size:1.2em}.woo-sc-box.rounded{-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px}.woo-sc-box.alert{border-color:#f0baa2;background:#ffd9c8 url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-alert.png) no-repeat 20px 45%}.woo-sc-box.download{border-color:#d4ebaf;background:#edfcd5 url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-download.png) no-repeat 20px 45%}.woo-sc-box.tick{border-color:#d4ebaf;background:#edfcd5 url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-tick.png) no-repeat 20px 45%}.woo-sc-box.info{border-color:#ccc;background:#eee url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-info.png) no-repeat 20px 45%}.woo-sc-box.note{border-color:#efe3ae;background:#fef6d2 url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-note.png) no-repeat 20px 45%}.woo-sc-box.normal{border-color:#ccc;background:#eee;padding:9px
+15px}a.woo-sc-button{font-family:sans-serif;display:inline-block;line-height:1em;padding:6px
+13px;margin:0
+.6em 1.5em 0;border:1px
+solid #4081af;border-bottom-color:#20559a;color:white !important;text-align:center;text-shadow:0 -1px 0 hsla(0,0%,0%,.3);text-decoration:none !important;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;background-color:#237fd7;background:-webkit-gradient(
+linear,
+left top,
+left bottom,
+color-stop(.2, #52a8e8),
+color-stop(1, #2e76cf)
+);background:-moz-linear-gradient(
+center top,
+#52a8e8 20%,
+#2e76cf 100%
+);-webkit-box-shadow:inset 0 1px 0 hsla(0,100%,100%,.3) ,
+inset 0 0 2px hsla(0,100%,100%,.3) ,
+0 1px 2px hsla(0, 0%, 0%, .29);-moz-box-shadow:inset 0 1px 0 hsla(0,100%,100%,.3) ,
+inset 0 0 2px hsla(0,100%,100%,.3) ,
+0 1px 2px hsla(0, 0%, 0%, .29);box-shadow:inset 0 1px 0 hsla(0,100%,100%,.3) ,
+inset 0 0 2px hsla(0,100%,100%,.3) ,
+0 1px 2px hsla(0, 0%, 0%, .29) }a.woo-sc-button.small{padding:2px
+10px;font-size:0.9em}a.woo-sc-button.large{padding:7px
+16px;font-size:1.4em}a.woo-sc-button.xl{padding:9px
+20px;font-size:1.8em}a.woo-sc-button:hover,a.woo-sc-button.hover,a.woo-sc-button.active{text-decoration:none !important;background:#0073d2;background:-webkit-gradient(
+linear,
+left top,
+left bottom,
+color-stop(.2, #3e9ee5),
+color-stop(1, #1666ca)
+);background:-moz-linear-gradient(
+center top,
+#3e9ee5 20%,
+#1666ca 100%
+)}a.woo-sc-button:active,a.woo-sc-button.active{border-color:#20559a;-webkit-box-shadow:inset 0 0 7px hsla(0,0%,0%,.3) ,
+0 1px 0 hsla(0, 100%, 100%, 1);-moz-box-shadow:inset 0 0 7px hsla(0,0%,0%,.3) ,
+0 1px 0 hsla(0, 100%, 100%, 1);box-shadow:inset 0 0 7px hsla(0,0%,0%,.3) ,
+0 1px 0 hsla(0, 100%, 100%, 1) }a.woo-sc-button.dark
+span{color:#555;text-shadow:0 1px #fff}a.woo-sc-button.custom:hover{opacity:0.85}a.woo-sc-button
+span{line-height:1.2em;min-height:16px}a.woo-sc-button span.woo-info{background:url("/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-info.png") no-repeat 0 45%;padding-left:25px;display:block}a.woo-sc-button span.woo-download{background:url("/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-download.png") no-repeat 0 45%;padding-left:25px;display:block}a.woo-sc-button span.woo-tick{background:url("/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-tick.png") no-repeat 0 45%;padding-left:25px;display:block}a.woo-sc-button span.woo-note{background:url("/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-note.png") no-repeat 0 45%;padding-left:25px;display:block}a.woo-sc-button span.woo-alert{background:url("/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-alert.png") no-repeat 0 45%;padding-left:25px;display:block}a.woo-sc-button.red{border-color:#af4040;border-bottom-color:#9a2020;background-color:#d72323;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #e85252),color-stop(1, #cf2e2e));background:-moz-linear-gradient(center top,#e85252 20%,#cf2e2e 100%)}a.woo-sc-button.red:hover{background:#d20000;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #e53e3e),color-stop(1, #ca1616));background:-moz-linear-gradient(center top,#e53e3e 20%,#ca1616 100%)}a.woo-sc-button.orange{border-color:#af7440;border-bottom-color:#9a5420;background-color:#d76b23;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #e88e52),color-stop(1, #cf6e2e));background:-moz-linear-gradient(center top,#e88e52 20%,#cf6e2e 100%)}a.woo-sc-button.orange:hover{background:#d25e00;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #e57d3e),color-stop(1, #ca5116));background:-moz-linear-gradient(center top,#e57d3e 20%,#ca5116 100%)}a.woo-sc-button.green{border-color:#87bf00;border-bottom-color:#7ca122;background-color:#8dc11e;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #ace53e),color-stop(1, #8dca16));background:-moz-linear-gradient(center top,#ace53e 20%,#6bca16 100%)}a.woo-sc-button.green:hover{background:#87c000;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #a0d53a),color-stop(1, #60b513));background:-moz-linear-gradient(center top,#a0d53a 20%,#60b513 100%)}a.woo-sc-button.aqua{border-color:#40af96;border-bottom-color:#209a82;background-color:#23d7af;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #52e8c6),color-stop(1, #2ecfab));background:-moz-linear-gradient(center top,#52e8c6 20%,#2ecfab 100%)}a.woo-sc-button.aqua:hover{background:#00d2a8;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #3ee5c0),color-stop(1, #16ca9e));background:-moz-linear-gradient(center top,#3ee5c0 20%,#16ca9e 100%)}a.woo-sc-button.teal{border-color:#23a6d6;border-bottom-color:#20799a;background-color:#23abd7;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #52c3e8),color-stop(1, #2eabcf));background:-moz-linear-gradient(center top,#52c3e8 20%,#2eabcf 100%)}a.woo-sc-button.teal:hover{background:#009ed2;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #3ebce5),color-stop(1, #16a2ca));background:-moz-linear-gradient(center top,#3ebce5 20%,#16a2ca 100%)}a.woo-sc-button.purple{border-color:#234dd6;border-bottom-color:#20489a;background-color:#2356d7;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #526ee8),color-stop(1, #2e58cf));background:-moz-linear-gradient(center top,#526ee8 20%,#2e58cf 100%)}a.woo-sc-button.purple:hover{background:#0036d2;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #3e5ae5),color-stop(1, #1638ca));background:-moz-linear-gradient(center top,#3e5ae5 20%,#1638ca 100%)}a.woo-sc-button.pink{border-color:#d623cb;border-bottom-color:#9a2096;background-color:#d723d5;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #e852e6),color-stop(1, #cd2ecf));background:-moz-linear-gradient(center top,#e852e6 20%,#cd2ecf 100%)}a.woo-sc-button.pink:hover{background:#bc00d2;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #c83ee5),color-stop(1, #ae16ca));background:-moz-linear-gradient(center top,#c83ee5 20%,#ae16ca 100%)}a.woo-sc-button.silver{color:#444 !important;text-shadow:0 1px #fff;border-color:#bbb;border-bottom-color:#999;background-color:#d8d8d8;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #e9e9e9),color-stop(1, #ccc));background:-moz-linear-gradient(center top,#e9e9e9 20%,#ccc 100%)}a.woo-sc-button.silver:hover{background:#ccc;background:-webkit-gradient(linear,left top,left bottom,color-stop(.2, #e0e0e0),color-stop(1, #bebebe));background:-moz-linear-gradient(center top,#e0e0e0 20%,#bebebe 100%)}.twocol-one{width:48%}.threecol-one{width:30.66%}.threecol-two{width:65.33%}.fourcol-one{width:22%}.fourcol-two{width:48%}.fourcol-three{width:74%}.fivecol-one{width:16.8%}.fivecol-two{width:37.6%}.fivecol-three{width:58.4%}.fivecol-four{width:67.2%}.sixcol-one{width:13.33%}.sixcol-two{width:30.66%}.sixcol-three{width:47.99%}.sixcol-four{width:65.33%}.sixcol-five{width:82.67%}.twocol-one,.threecol-one,.threecol-two,.fourcol-one,.fourcol-two,.fourcol-three,.fivecol-one,.fivecol-two,.fivecol-three,.fivecol-four,.sixcol-one,.sixcol-two,.sixcol-three,.sixcol-four,.sixcol-five{float:left;margin-right:4%;position:relative}.last{clear:right;margin-right:0 !important}.woo-tweetmeme.left{margin:0
+1.5em 1.5em 0;float:left}.woo-tweetmeme.none{margin:0
+0 1.5em 0}.woo-tweetmeme.right{margin:0
+0 1.5em 1.5em;float:right}.woo-sc-twitter.left{margin:0
+1.5em 1.5em 0;float:left}.woo-sc-twitter.none{margin:0
+0 1.5em 0}.woo-sc-twitter.right{margin:0
+0 1.5em 1.5em;float:right}.woo-digg.left{margin:0
+1.5em 1.5em 0;float:left}.woo-digg.none{margin:0
+0 1.5em 0}.woo-digg.right{margin:0
+0 1.5em 1.5em;float:right}.woo-sc-related-posts
+.thumbnail{float:left;margin:0
+1em 1em 0}.woo-sc-related-posts
+li{clear:both}.woo-sc-hr{border-bottom:1px solid #e6e6e6}.woo-sc-hr,.woo-sc-divider{clear:both;display:block;margin-bottom:20px;padding-top:20px;width:100%}.woo-sc-divider.flat{padding:0;margin:0}.woo-sc-quote
+p{margin:1em
+20px;padding:0
+0 0 55px;background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/quote.png) no-repeat 0 3px;font-family:serif;font-size:1.2em;font-style:italic;color:#777;min-height:32px}.woo-sc-quote.left{float:left;width:30%}.woo-sc-quote.right{float:right;width:30%}.woo-sc-quote.boxed{background:#f5f5f5;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px}.woo-sc-quote.boxed.left{margin:0
+1.5em 1em 0}.woo-sc-quote.boxed.right{margin:0
+0 1em 1.5em}.woo-sc-ilink{padding:0
+0.3em}.woo-sc-ilink
+a{padding-left:20px;text-decoration:underline;display:inline-block}.woo-sc-ilink a:hover{text-decoration:none}.woo-sc-ilink
+.download{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-download.png) no-repeat left 40%}.woo-sc-ilink
+.tick{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-tick.png) no-repeat left 40%}.woo-sc-ilink
+.info{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-info.png) no-repeat left 40%}.woo-sc-ilink
+.note{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-note.png) no-repeat left 40%}.woo-sc-ilink
+.alert{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/ico-alert.png) no-repeat left 40%}.woo-fbshare.left{margin:0
+1.5em 1.5em 0;float:left}.woo-fbshare.none{margin:0
+0 1.5em 0}.woo-fbshare.right{margin:0
+0 1.5em 1.5em;float:right}.woo-fblike.left{margin:0
+1.5em 1.5em 0;float:left}.woo-fblike.none{margin:0
+0 1.5em 0}.woo-fblike.right{margin:0
+0 1.5em 1.5em;float:right}.contact-form
+.screenReader{left:-9999px;position:absolute;top:-9999px}.contact-form
+.forms{float:left;list-style:none;width:100%;margin:10px
+0 0}.contact-form .forms
+p{clear:both;float:left;margin-bottom:18px;position:relative;width:100%}.contact-form .forms
+label{cursor:pointer;display:block;float:left;font-weight:700;padding-right:20px;width:100px}.contact-form .forms
+input.txt{width:214px}.contact-form .forms
+input#sendCopy{border:none}.contact-form .forms
+textarea{height:300px;width:400px}.contact-form .forms
+.error{font-size:12px;display:block;margin-left:120px;color:red}.contact-form .forms .textarea
+.error{display:block;margin-left:120px}.contact-form .forms
+.screenReader{margin-bottom:0}.contact-form .forms .buttons
+.submit{margin:15px
+0 0 120px;cursor:pointer}.contact-form .forms .inline
+input{width:auto;margin-left:120px}.contact-form .forms .inline
+label{display:inline;float:none;width:auto}.entry .contact-form ol.forms
+li{list-style:none}.contact-form
+.submit{display:inline-block;margin:5px;padding:3px
+13px;border:1px
+solid #4081af;border-bottom-color:#20559a;color:white !important;text-align:center;text-shadow:0 -1px 0 hsla(0,0%,0%,.3);text-decoration:none;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;background:#237fd7;background:-webkit-gradient(
+linear,
+left top,
+left bottom,
+color-stop(.2, #52a8e8),
+color-stop(1, #2e76cf)
+);background:-moz-linear-gradient(
+center top,
+#52a8e8 20%,
+#2e76cf 100%
+);-webkit-box-shadow:inset 0 1px 0 hsla(0,100%,100%,.3) ,
+inset 0 0 2px hsla(0,100%,100%,.3) ,
+0 1px 2px hsla(0, 0%, 0%, .29);-moz-box-shadow:inset 0 1px 0 hsla(0,100%,100%,.3) ,
+inset 0 0 2px hsla(0,100%,100%,.3) ,
+0 1px 2px hsla(0, 0%, 0%, .29);box-shadow:inset 0 1px 0 hsla(0,100%,100%,.3) ,
+inset 0 0 2px hsla(0,100%,100%,.3) ,
+0 1px 2px hsla(0, 0%, 0%, .29) }.contact-form .submit:hover{text-decoration:none !important;background:#0073d2;background:-webkit-gradient(
+linear,
+left top,
+left bottom,
+color-stop(.2, #3e9ee5),
+color-stop(1, #1666ca)
+);background:-moz-linear-gradient(
+center top,
+#3e9ee5 20%,
+#1666ca 100%
+)}.shortcode-tabs{background:#f0f0f0;background:rgba(0,0,0,.05);clear:both;height:auto;display:block;padding:5px;margin-bottom:30px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}.shortcode-tabs
+ul.tab_titles{padding:0px;background:none;border:none;margin:0}.shortcode-tabs ul.tab_titles li.nav-tab{background:none;padding:0;float:left;display:inline;color:#fff;margin:0px;cursor:pointer}.shortcode-tabs ul.tab_titles li.nav-tab.ui-tabs-selected a, .shortcode-tabs ul.tab_titles li.nav-tab a:hover{background:#fff;text-decoration:none}.shortcode-tabs ul.tab_titles li.nav-tab
+a{color:#777;display:block;float:left;padding:8px;text-transform:uppercase;font:11px/18px sans-serif}.shortcode-tabs ul.tab_titles li.nav-tab.ui-tabs-selected a, .shortcode-tabs ul.tab_titles li.nav-tab a:hover{-moz-border-radius-topright:3px;-moz-border-radius-topleft:3px;-webkit-border-top-right-radius:3px;-webkit-border-top-left-radius:3px;border-top-right-radius:3px;border-top-left-radius:3px}.shortcode-tabs
+.tab{background:#fff;padding:10px;text-align:left;clear:both}.shortcode-tabs .tab li.nav-tab{background:#fff}.shortcode-tabs .tab
+ul.tab_titles{margin:0;border:1px
+solid #e6e6e6;border-width:1px 0 1px 0}.shortcode-tabs .tab li.nav-tab{border:1px
+solid #e6e6e6;border-width:0 1px 1px 1px;padding:10px}.shortcode-tabs .tab li.nav-tab
+a{color:#555;font:bold 12px/18px sans-serif}.shortcode-tabs .tab a:hover{}.shortcode-tabs .ui-tabs-hide{display:none}.shortcode-tabs.boxed{background:#FFF}.shortcode-tabs.boxed
+ul.tab_titles{clear:both;float:left;background:none;border:none;border-left:1px solid #EBEBEB;margin-bottom:0px;position:relative;z-index:2}.shortcode-tabs.boxed ul.tab_titles
+li{background:none;padding:0;border-top:1px solid #EBEBEB;border-right:1px solid #EBEBEB}.shortcode-tabs.boxed ul.tab_titles li.ui-state-active{border-bottom:1px solid #FFF}.shortcode-tabs.boxed
+.tab{border:1px
+solid #EBEBEB;top:-2px;position:relative;z-index:1}.shortcode-tabs.vertical{background:#FFF}.shortcode-tabs.vertical
+.tab_header{border:1px
+solid #F0F0F0;border-bottom:0px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;width:25%;float:left;margin-bottom:-5px;color:#555;font:bold 12px/18px sans-serif}.shortcode-tabs.vertical
+.tab_header{background:#f5f5f5;background:-moz-linear-gradient(100% 100% 90deg, #f5f5f5, #fff);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#f5f5f5));border-bottom-left-radius:0px;border-bottom-right-radius:0px;-moz-border-radius-bottomright:0px;-moz-border-radius-bottomleft:0px;-webkit-border-bottom-left-radius:0px;-webkit-border-bottom-right-radius:0px}.shortcode-tabs.vertical .tab_header
+span{display:block;padding:8px
+8px 12px 8px;border:1px
+solid #EBEBEB}.shortcode-tabs.vertical
+ul.tab_titles{clear:left;float:left;background:none;border:1px
+solid #F0F0F0;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;margin-bottom:0px;position:relative;z-index:2;width:25%}.shortcode-tabs.vertical
+ul.tab_titles.has_title{border-top:0px !important;margin-top:5px}.shortcode-tabs.vertical
+ul.tab_titles.has_title{border-top-left-radius:0px;border-top-right-radius:0px;-moz-border-radius-topright:0px;-moz-border-radius-topleft:0px;-webkit-border-top-left-radius:0px;-webkit-border-top-right-radius:0px}.shortcode-tabs.vertical ul.tab_titles
+li{clear:both;background:none;padding:0;border-bottom:1px solid #EBEBEB;border-left:1px solid #EBEBEB;border-right:1px solid #EBEBEB;display:block !important;float:none !important}.shortcode-tabs.vertical ul.tab_titles li.ui-state-active{}.shortcode-tabs.vertical ul.tab_titles li.ui-state-active
+a{background:#F0F0F0;background:rgba(0,0,0,.05)}.shortcode-tabs.vertical ul.tab_titles li a:link{display:block;float:none !important}.shortcode-tabs.vertical ul.tab_titles li a:hover{background:#F0F0F0;background:rgba(0,0,0,.05)}.shortcode-tabs.vertical
+.tab{clear:right !important;top:5px;position:relative;z-index:1;margin-left:30%;padding:0px}span.dropcap{font-size:300%;font-weight:bold;float:left;position:relative;margin:5px
+7px 0 0;line-height:0.7em}.shortcode-toggle{margin:0
+0 1.2em}.shortcode-toggle
+h4{margin:0}.shortcode-toggle h4
+a{display:block;padding:3px
+0 3px 10px;background:#f3f3f3 url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/shortcode-toggle-close.png) no-repeat 99% center}.shortcode-toggle.closed h4
+a{background-image:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/shortcode-toggle-open.png)}.shortcode-toggle .toggle-content{padding:10px
+10px;background:#f9f9f9}.shortcode-toggle.closed .toggle-content, .shortcode-toggle .more-text.closed{display:none}.shortcode-toggle .more-text.open{display:block}.shortcode-toggle.border{border:1px
+solid #EBEBEB}.shortcode-toggle.white h4
+a{background-color:#FFF}.shortcode-toggle.white .toggle-content{background-color:#FFF}span.shortcode-highlight{background:#FFA;padding:3px
+3px 1px}abbr{border-bottom:1px dashed #999;cursor:help}.entry .shortcode-unorderedlist ul li, .shortcode-unorderedlist ul li, .entry .shortcode-unorderedlist ul li ul, .shortcode-unorderedlist ul li
+ul{list-style-type:none;padding-left:25px;background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/w3tc/min/4480b421.6f2019.css) no-repeat scroll left top}.entry .shortcode-unorderedlist.tick ul li, .shortcode-unorderedlist.tick ul
+li{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/shortcode-tick.png) no-repeat left top}.entry .shortcode-unorderedlist.red-x ul li, .shortcode-unorderedlist.red-x ul
+li{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/shortcode-red-x.png) no-repeat left top}.entry .shortcode-unorderedlist.bullet ul li, .shortcode-unorderedlist.bullet ul
+li{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/shortcode-bullet.png) no-repeat left top}.entry .shortcode-unorderedlist.green-dot ul li, .shortcode-unorderedlist.green-dot ul
+li{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/shortcode-green-dot.png) no-repeat left top}.entry .shortcode-unorderedlist.arrow ul li, .shortcode-unorderedlist.arrow ul
+li{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/shortcode-arrow.png) no-repeat left top}.entry .shortcode-unorderedlist.star ul li, .shortcode-unorderedlist.star ul
+li{background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/themes/canvas473/functions/images/shortcode-star.png) no-repeat left top}.entry .shortcode-orderedlist ol li, .entry .shortcode-orderedlist ol li ol, .shortcode-orderedlist ol
+li{list-style-type:none;margin-left:25px;background:url(/web/20120103102433im_/http://ledhdtvtelevisions.com/wp-content/w3tc/min/4480b421.6f2019.css) no-repeat scroll left top}.entry .shortcode-orderedlist.armenian ol li, .shortcode-orderedlist.armenian ol
+li{list-style-type:armenian}.entry .shortcode-orderedlist.decimal ol li, .shortcode-orderedlist.decimal ol
+li{list-style-type:decimal}.entry .shortcode-orderedlist.decimal-leading-zero ol li, .shortcode-orderedlist.decimal-leading-zero ol
+li{list-style-type:decimal-leading-zero}.entry .shortcode-orderedlist.georgian ol li, .shortcode-orderedlist.georgian ol
+li{list-style-type:georgian}.entry .shortcode-orderedlist.lower-alpha ol li, .shortcode-orderedlist.lower-alpha ol
+li{list-style-type:lower-alpha}.entry .shortcode-orderedlist.lower-greek ol li, .shortcode-orderedlist.lower-greek ol
+li{list-style-type:lower-greek}.entry .shortcode-orderedlist.lower-latin ol li, .shortcode-orderedlist.lower-latin ol
+li{list-style-type:lower-latin}.entry .shortcode-orderedlist.lower-roman ol li, .shortcode-orderedlist.lower-roman ol
+li{list-style-type:lower-roman}.entry .shortcode-orderedlist.upper-alpha ol li, .shortcode-orderedlist.upper-alpha ol
+li{list-style-type:upper-alpha}.entry .shortcode-orderedlist.upper-latin ol li, .shortcode-orderedlist.upper-latin ol
+li{list-style-type:upper-latin}.entry .shortcode-orderedlist.upper-roman ol li, .shortcode-orderedlist.upper-roman ol
+li{list-style-type:upper-roman}img.social-icon{border:none}
+/*
+     FILE ARCHIVED ON 10:24:33 Jan 03, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:16:35 Jan 04, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 1.908
+  esindex: 0.013
+  exclusion.robots.policy: 0.186
+  LoadShardBlock: 342.469 (3)
+  PetaboxLoader3.datanode: 414.693 (4)
+  exclusion.robots: 0.2
+  CDXLines.iter: 22.77 (3)
+  captures_list: 371.051
+  load_resource: 154.667
+  PetaboxLoader3.resolve: 20.123
+*/
